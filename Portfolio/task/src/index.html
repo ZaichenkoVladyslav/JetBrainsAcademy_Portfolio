@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flexbox-container">
+
+    <!-- Header section -->
+    <div class="flexbox-item">
+        <section id="header">
+
+                <header tabindex="0">Welcome to my portfolio website</header>
+                <div id="nav-container">
+                    <div class="button" tabindex="0">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    <div class="hamburger">
+                        <nav id="menu-hamburger" tabindex="0">
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contacts">Contact</a></li>
+                                <li><a href="#header">HOME</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            <p>Developer<br>
+                Vladyslav Zaichenko</p>
+
+        </section>
+    </div>
+    <!-- End of header -->
+
+    <!-- About section -->
+    <div class="flexbox-item">
+        <section id="about">
+            <div class="title">
+                <h3>About me</h3>
+            </div>
+            <div id="about_left">
+                <p>My name is Vladyslav Zaichenko. I am 22 years old</p>
+                <p>I am a student of VSEMvs university in Bratislava</p>
+                <p>I am working in one of the largest companies in the world - IBM</p>
+                <p>But for me, programming is not just a job, it's a hobby.</p>
+                <p>I like to study new technologies and apply them in practice.</p>
+                <p>I am finished few courses on the JetBrains Academy:</p>
+                <ul>
+                    <li>JetBrains Academy - Python for Beginners</li>
+                    <li>JetBrains Academy - Intermediate Python</li>
+                    <li>JetBrains Academy - Frontend developer</li>
+                </ul>
+                <p><b>Skills:</b> Java, Python, HTML, CSS, JS</p>
+                <p>Also I'm open to new and new knowledge</p>
+            </div>
+            <div id="about_right">
+                <img src="Portrait.jpeg" alt="Portrait">
+            </div>
+        </section>
+    </div>
+    <!-- End of about -->
+
+    <!-- Portfolio section -->
+    <div class="flexbox-item">
+        <section id="portfolio">
+
+            <div class="title">
+                <h3>Some projects from my portfolio</h3>
+            </div>
+
+            <div class="window-virtual-piano" id="left">
+                <p class="project">Virtual Piano</p>
+                <div class="window" id="virtual-piano">
+                    <div class="window-head">
+                        <div class="title"><h2>Virtual Piano</h2></div>
+                    </div>
+                    <div class="window-body">
+                        <p>You can see the project at the following link: <a href="https://github.com/ZaichenkoVladyslav/JetBrainsAcademy_Virtual_Piano">Virtual Piano</a></p>
+                        <p>I did this project when I was studying the frontend on HyperSkill. I created
+                            a web page with Virtual Piano, learned some HTML basics and some JS basics
+                            and learned that CSS can easily make a beautiful design.</p>
+                    </div>
+                    <button data-close-button class="close-button">Close</button>
+                </div>
+                <img src="Virtual_Piano.png" alt="Virtual Piano">
+                <button data-window-target="#virtual-piano" class="open-window">Virtual Piano (more...)</button>
+            </div>
+
+            <div class="window-flashcards" id="right">
+                <p class="project">Flashcards</p>
+                <div class="window" id="flashcards">
+                    <div class="window-head">
+                        <div class="title"><h2>Flashcards</h2></div>
+                    </div>
+                    <div class="window-body">
+                        <p>You can see the project at the following link: <a href="https://github.com/ZaichenkoVladyslav/JetBrainsAcademy_Flashcards">Flashcards</a></p>
+                        <p>I did this project when I was studying the frontend on HyperSkill. I created
+                            a web page with Flashcards, learned some HTML basics and
+                            learned that CSS can easily make a beautiful design.</p>
+                    </div>
+                    <button data-close-button class="close-button">Close</button>
+                </div>
+                <img src="Flashcards.png" alt="Flashcards">
+                <button data-window-target="#flashcards" class="open-window">Flashcards (more...)</button>
+            </div>
+
+        </section>
+    </div>
+    <!-- End of portfolio -->
+
+    <!-- Contacts section -->
+    <div class="flexbox-item">
+        <section id="contacts">
+            <p>Contacts</p>
+            <div class="social-network">
+                <a href="https://www.instagram.com/zaichenko_vladyslav/"><img src="instagram.svg" alt="Instagram"></a>
+                <a href="https://github.com/ZaichenkoVladyslav"><img src="github.svg" alt="Github"></a>
+            </div>
+        </section>
+    </div>
+    <!-- End of contacts -->
+
+    <!-- Footer section -->
+    <div class="flexbox-item">
+        <footer>
+            <p>Zaichenko Vladyslav, 02 March 2021</p>
+        </footer>
+    </div>
+    <!-- End of footer -->
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
